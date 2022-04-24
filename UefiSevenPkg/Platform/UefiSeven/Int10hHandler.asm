@@ -3,8 +3,8 @@
 ; A minimal Int10h stub that allows the Windows 7 SP1 default VGA driver to
 ; 'swithc' to the 1024x768x32 video mode on devices that do not have a VGA ROM
 ; or Int10h handler.
-;
-; Adapted from VbeShim.asm from the Qemu project.
+; 
+; Adapted from VgaShim, which is based on VbeShim.asm from the Qemu project.
 ;
 ; Copyright (c) 2020, Seungjoo Kim
 ; Copyright (c) 2016, Dawid Ciecierski
