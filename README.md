@@ -1,6 +1,7 @@
 # UefiSeven
 ## Summary
 Forked from manatails.
+
 UefiSeven is an efi module that enables Windows 7 to boot under UEFI Class 3 systems.
 
 Windows 7 does not fully support UEFI and relies on legacy BIOS interrupt 10 (Int10h) during initial graphics initialization.
