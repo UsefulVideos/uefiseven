@@ -114,9 +114,9 @@ WaitForEnterAndStall (
   -----------------------------------------------------------------------------
 **/
 
-STATIC CONST  CHAR8                 VENDOR_NAME[]       = "UefiSeven";
-STATIC CONST  CHAR8                 PRODUCT_NAME[]      = "Emulated VGA";
-STATIC CONST  CHAR8                 PRODUCT_REVISION[]  = "OVMF Int10h (fake)";
+STATIC CONST  CHAR8                 VENDOR_NAME[]       = "UefiSeven (UsefulAGKHelper Fork)";
+STATIC CONST  CHAR8                 PRODUCT_NAME[]      = "VGA Emulator";
+STATIC CONST  CHAR8                 PRODUCT_REVISION[]  = "OVMF emulated Int10h";
 STATIC CONST  EFI_PHYSICAL_ADDRESS  VGA_ROM_ADDRESS     = 0xA0000;
 STATIC CONST  EFI_PHYSICAL_ADDRESS  IVT_ADDRESS         = 0x00000;
 STATIC CONST  UINTN                 VGA_ROM_SIZE        = 0x10000;
